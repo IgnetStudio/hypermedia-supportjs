@@ -1,0 +1,24 @@
+{
+  "name": "hypermedia-supportjs",
+  "version": "1.0.0",
+  "description": "Dokumenty i przykłady stworzone w ramach sesji szkoleniowych w firmie Hypermedia. Struktura jest następująca:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichalCz/hypermedia-supportjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichalCz/hypermedia-supportjs/issues"
+  },
+  "homepage": "https://github.com/MichalCz/hypermedia-supportjs#readme",
+  "dependencies": {
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0",
+    "scramjet": "^2.6.0"
+  }
+}

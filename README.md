@@ -23,3 +23,37 @@ Linki
 -------
 
 * [Cucumber.js - przykład serwerowy w node.js](https://github.com/cucumber/cucumber-js/blob/master/docs/nodejs_example.md)
+
+Plan szkoleń
+--------------
+
+* Klasy, Dziedziczenie
+* Silniki template'owe
+* Wykonywanie cykliczne operacji, kolejki
+* Logowanie i obsługa błędów
+* Testy automatyczne
+* Środowisko i uruchamianie
+* Przydatne moduły
+  * Obsługa plików
+  * Wykonywanie zapytań HTTP / REST
+  * Obsługa potoków
+* Obsługa baz danych - NoSQL, SQL
+* Frameworki
+* Pułapki i dobre praktyki
+* WebRTC
+* WebSocket
+
+* Express > HTTP > Net - socket
+
+Warsztaty
+-----------
+
+* Analiza dużego serwisu www
+
+* Obsługa Streaming API
+* Obsługa REST API
+* Usługa udostępniająca REST API
+* Inteligentny Load Balancer
+* Strona w Express.js
+* Chat w Node.js
+* Aplikacje na żywo
