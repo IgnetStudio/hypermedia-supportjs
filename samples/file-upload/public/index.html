@@ -83,7 +83,7 @@
                                 res();
                             }, false);
                             xhr.upload.addEventListener("error", rej);
-                            xhr.overrideMimeType('text/plain; charset=x-user-defined-binary');
+                            xhr.setRequestHeader('content-type', 'application/octet-stream');
                             xhr.send(blob);
                             console.log('XHR open');
                         });

@@ -1,6 +1,6 @@
-# hypermedia-supportjs
+# HYPER-JS
 
-Dokumenty i przykłady stworzone w ramach sesji szkoleniowych w firmie Hypermedia. Struktura jest następująca:
+Githubowy blog o Node.js i okolicach stworzony w czasie sesji szkoleniowych w firmie [Hypermedia](https://hypermedia.pl/).
 
 * [training](training/) - pliki z skryptami do sesji szkoleniowych
   * [2017-04-13-require.md](training/2017-04-13-require.md) - require - dołączanie modułów, tworzenie modułów w "Common JS"
