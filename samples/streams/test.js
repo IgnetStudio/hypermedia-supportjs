@@ -18,16 +18,15 @@ new ReadArr([{a: 1},{a: 2},{a: 3},{a: 4},{a: 5}])
                     numStr += d;
                 }).on("end", () => {
                     callback(null, {a: +numStr});
-                })
+                });
             }).on('error', callback);
         }
     }))
     .pipe(sumStream)
     .on("finish", () => {
         srv.close();
-        console.log(sumStream._sum)
+        console.log(sumStream._sum);
     });
-;
 
 (srv = http.createServer((req, res) => {
     console.log("connect", req.url);

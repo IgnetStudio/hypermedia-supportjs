@@ -12,6 +12,7 @@ Githubowy blog o Node.js i okolicach stworzony w czasie sesji szkoleniowych w fi
   * [2017-05-11-template.md](training/2017-05-11-template.md) - Template engines
 * [samples](samples/) - przykłady programów w node.js
   * [Promise](samples/promises/) - przykład serwera z wykorzystaniem Promises.
+  * [Streams](samples/stream/) - przykłady implementacji i użycia strumieni node.js.
   * [File Upload](samples/file-upload/) - przykład serwera do wygrywania bardzo dużych plików za pomocą Express.js, strumieni i Promise'ów.
   * [Templates](samples/templates/) - przykład użycia silnika template'owego.
 

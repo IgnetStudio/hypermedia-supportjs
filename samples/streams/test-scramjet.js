@@ -1,4 +1,4 @@
-const {DataStream} = require("scramjet")
+const {DataStream} = require("scramjet");
 const http = require("http");
 const request = require("request-promise");
 
@@ -12,7 +12,7 @@ new Promise((res) => {
 
     }).listen(1410, () => res(srv));
 }).then(
-    (srv) => DataStream.fromArray([1,2,3,4,5])
+    () => DataStream.fromArray([1,2,3,4,5])
         .map((n) => ({"a":n}))
         .map(
             (chunk) => request.get("http://localhost:1410/" + chunk.a)
