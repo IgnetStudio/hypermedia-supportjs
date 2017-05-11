@@ -9,6 +9,7 @@ Githubowy blog o Node.js i okolicach stworzony w czasie sesji szkoleniowych w fi
   * [2017-04-20-node.js-part1.md](training/2017-04-20-node.js-part1.md) - wstępniak do szkolenia z użycia Node.js
   * [2017-04-25-node.js-part2-fs.md](training/2017-04-25-node.js-part2-fs.md) - Node.js - system plików
   * [2017-04-26-node.js-part3-streams.md](training/2017-04-26-node.js-part3-streams.md) - Node.js - strumienie
+  * [2017-05-11-template.md](training/2017-05-11-template.md) - Template engines
 * [samples](samples/) - przykłady programów w node.js
   * [Promise](samples/promises/) - przykład serwera z wykorzystaniem Promises.
   * [File Upload](samples/file-upload/) - przykład serwera do wygrywania bardzo dużych plików za pomocą Express.js, strumieni i Promise'ów.
@@ -27,8 +28,7 @@ Linki
 Plan szkoleń
 --------------
 
-* Klasy, Dziedziczenie
-* Silniki template'owe
+* Klasy ES6/ES5, Dziedziczenie
 * Wykonywanie cykliczne operacji, kolejki
 * Logowanie i obsługa błędów
 * Testy automatyczne
