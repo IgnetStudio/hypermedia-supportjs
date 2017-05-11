@@ -8,13 +8,18 @@ const path = require('path');           // moduł do operacji na ścieżkach
 const fs = require('fs');               // moduł do obsługi systemu plików
 // w tym te instalowane z NPM
 const express = require('express');     // framework ułatwiający tworzenie serwerów HTTP
-const e = require('thenify');     // moduł umożliwiający obsługę Promise przez klasyczne metody Node.js
+const thenify = require('thenify');     // moduł umożliwiający obsługę Promise przez klasyczne metody Node.js
 
 // konstruujemy aplikację Express.js
 const app = express();
 
 // ustalamy ścieżkę dla naszych plików
 const base = path.join(__dirname, "uploads/");
+
+app.use((q,s,next) => {
+    console.log("connection", q.url);
+    next();
+});
 
 // informujemy aplikację, że chcemy, aby żądania HTTP ze ścieżki były obsługowane przez poniższą metodę.
 app.use("/upload", (request, response) => {
@@ -23,6 +28,7 @@ app.use("/upload", (request, response) => {
     //   - response - obiekt ServerResponse (https://nodejs.org/api/http.html#http_class_http_serverresponse)
     //
     // Obiekt request jest strumieniem, po którym przeglądarka będzie wysyłała do nas plik.
+    console.log("Connection", request.headers);
 
     // obiekt request zawiera informację o żądanym przez przeglądarkę adresie
     // na wszelki wypadek wykonujemy na nim regex, który uniemożliwi wgranie pliku poza ustaloną wyżej ścieżkę
@@ -55,6 +61,7 @@ app.use("/upload", (request, response) => {
     )
     .then(
         (wStream) => new Promise((resolve, reject) => {     // tworzymy nowy Promise
+            request._body = true
             request
                 .on("error", reject)                        // ustalamy obsługę błędów dla żądania klienta
                 .pipe(wStream)                              // przekierowujemy strumień od klienta do strumienia pliku
