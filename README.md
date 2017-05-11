@@ -13,6 +13,7 @@ Githubowy blog o Node.js i okolicach stworzony w czasie sesji szkoleniowych w fi
 * [samples](samples/) - przykłady programów w node.js
   * [Promise](samples/promises/) - przykład serwera z wykorzystaniem Promises.
   * [File Upload](samples/file-upload/) - przykład serwera do wygrywania bardzo dużych plików za pomocą Express.js, strumieni i Promise'ów.
+  * [Templates](samples/templates/) - przykład użycia silnika template'owego.
 
 Forkowanie i kontrybucje
 --------------------------
