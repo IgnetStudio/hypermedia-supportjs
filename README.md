@@ -28,11 +28,11 @@ Linki
 Plan szkoleń
 --------------
 
-* Klasy ES6/ES5, Dziedziczenie
-* Wykonywanie cykliczne operacji, kolejki
-* Logowanie i obsługa błędów
-* Testy automatyczne
+* Klasy ES6/ES5, Dziedziczenie, Mixin
 * Środowisko i uruchamianie
+* Logowanie i obsługa błędów
+* Wykonywanie cykliczne operacji, kolejki
+* Testy automatyczne
 * Przydatne moduły
   * Obsługa plików
   * Wykonywanie zapytań HTTP / REST
