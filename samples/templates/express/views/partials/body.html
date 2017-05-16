@@ -1,0 +1,11 @@
+<div id="main">
+    <h1>{{title}}</h1>
+    {{#if (is_index)}}
+        <div style="color:#009">{{{subtitle}}}</div>
+        {{#each items}}
+            {{is_index}}
+        {{/each}}
+    {{else}}
+        <div style="color:#090">{{subtitle}}</div>
+    {{/if}}
+</div>
