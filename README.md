@@ -16,6 +16,7 @@ Githubowy blog o Node.js i okolicach stworzony w czasie sesji szkoleniowych w fi
   * [Streams](samples/stream/) - przykłady implementacji i użycia strumieni node.js.
   * [File Upload](samples/file-upload/) - przykład serwera do wygrywania bardzo dużych plików za pomocą Express.js, strumieni i Promise'ów.
   * [Templates](samples/templates/) - przykład użycia silnika template'owego.
+  * [ES6](samples/es6/) - przykłady ES6
 
 Forkowanie i kontrybucje
 --------------------------
@@ -31,11 +32,11 @@ Linki
 Plan szkoleń
 --------------
 
-* Klasy ES6/ES5, Dziedziczenie, Mixin
 * Środowisko i uruchamianie
 * Logowanie i obsługa błędów
 * Wykonywanie cykliczne operacji, kolejki
 * Testy automatyczne
+* Klasy ES6/ES5, Dziedziczenie, Mixin
 * Przydatne moduły
   * Obsługa plików
   * Wykonywanie zapytań HTTP / REST
