@@ -243,4 +243,6 @@ Aby aplikacja prawidłowo działała w tle, musi być:
 Można to osiągnąc "na piechotę", jednak nasza konsolowa aplikacja może być uruchomiona w specjalnym wrapperze, którzy
 zapewni jej działanie w sposób taki, jak działałaby w konsoli bez konieczności wbudowywania obsługi daemona w systemie.
 
+Możemy sami stworzyć daemona w naszej aplikacji np. za pomocą modułu [daemonize2](https://www.npmjs.com/package/daemonize2).
+
 Najpopularniejszym modułem jest [PM2](https://www.npmjs.com/package/pm2).
