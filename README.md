@@ -10,13 +10,18 @@ Githubowy blog o Node.js i okolicach stworzony w czasie sesji szkoleniowych w fi
   * [2017-04-25-node.js-part2-fs.md](training/2017-04-25-node.js-part2-fs.md) - Node.js - system plików
   * [2017-04-26-node.js-part3-streams.md](training/2017-04-26-node.js-part3-streams.md) - Node.js - strumienie
   * [2017-05-11-template.md](training/2017-05-11-template.md) - Template engines
-  * [2017-05-16-es6.md](training/2017-05-11-template.md) - Template engines
+  * [2017-05-16-es6.md](training/2017-05-16-es.md) - ECMAScript6
+  * [2017-05-17-running-application.md](training/2017-05-17-running-application.md) - Uruchamianie aplikacji Node.
+  * [2017-05-17-env.md](training/2017-05-17-env.md) - Środowisko i interakcja z systemem operacyjnym.
+  * [2017-05-17-debugging.md](training/2017-05-17-debugging.md) - Debuggowanie
 * [samples](samples/) - przykłady programów w node.js
   * [Promise](samples/promises/) - przykład serwera z wykorzystaniem Promises.
   * [Streams](samples/stream/) - przykłady implementacji i użycia strumieni node.js.
   * [File Upload](samples/file-upload/) - przykład serwera do wygrywania bardzo dużych plików za pomocą Express.js, strumieni i Promise'ów.
   * [Templates](samples/templates/) - przykład użycia silnika template'owego.
   * [ES6](samples/es6/) - przykłady ES6
+  * [Running](samples/run/) - Uruchamianie aplikacji w node.js.
+  * [Environment](samples/env/) - Przykłady interakcji z systemem
 
 Forkowanie i kontrybucje
 --------------------------
@@ -32,9 +37,9 @@ Linki
 Plan szkoleń
 --------------
 
-* Środowisko i uruchamianie
 * Logowanie i obsługa błędów
 * Wykonywanie cykliczne operacji, kolejki
+* Aplikacje rozproszone
 * Testy automatyczne
 * Klasy ES6/ES5, Dziedziczenie, Mixin
 * Przydatne moduły
