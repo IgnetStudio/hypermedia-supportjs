@@ -21,6 +21,7 @@
     "morgan": "^1.8.1",
     "request": "^2.81.0",
     "request-promise": "^4.2.0",
-    "scramjet": "^2.6.0"
+    "scramjet": "^2.6.0",
+    "thenify": "^3.3.0"
   }
 }
