@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/MichalCz/hypermedia-supportjs#readme",
   "dependencies": {
+    "express": "^4.15.3",
+    "morgan": "^1.8.1",
     "request": "^2.81.0",
     "request-promise": "^4.2.0",
     "scramjet": "^2.6.0"
