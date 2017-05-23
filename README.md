@@ -38,6 +38,8 @@ Plan szkoleń
 --------------
 
 * Logowanie i obsługa błędów
+* Dokumentacja kodu w jsdoc
+* Konfiguracja jshint i eslint
 * Wykonywanie cykliczne operacji, kolejki
 * Aplikacje rozproszone
 * Testy automatyczne

@@ -75,6 +75,8 @@ nie działa w niej nasz logger, a jego zmiana zajmie zbyt dużo pracy.
 Dlatego warto przygotować sobie klasę abstrakcji do loggera, która ułatwi nam prace później i obejmie wszystkie
 potrzebne nam funkcje.
 
+### Logowanie struktury
+
 Debugowanie
 -------------
 
